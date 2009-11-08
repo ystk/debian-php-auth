@@ -1,0 +1,59 @@
+php-auth (1.6.2-1) unstable; urgency=low
+
+  * New upstream release.
+  * Update my email address. 
+  * Update to standards version 3.8.3, no further required changes. 
+
+ -- Gregory Colpart <reg@debian.org>  Sun, 08 Nov 2009 17:33:55 +0100
+
+php-auth (1.6.1-1) unstable; urgency=low
+
+  * New upstream release.
+  * Typo in last chanelog entry.
+  * Add Homepage field. 
+  * Add Vcs-* fields in debian/control.
+
+ -- Gregory Colpart (evolix) <reg@evolix.fr>  Sun, 18 May 2008 21:54:51 +0200
+
+php-auth (1.5.4-1) unstable; urgency=low
+
+  * New upstream release (Closes: #310949)
+  * New maintainer. (Closes: #433244)
+  * Upgrade the packaging.
+  * Improve copyright file and update license text. (Closes: #332606)
+  * Transition to PHP5 for Depends field. (Closes: #424810, #427329)
+  * Add php-pear in B-D-I field.
+  * Add watch file.
+  * Upgrade to last recommended Debhelper compatibility level.
+  * Add Homepage to control file.
+  * Upgrade Standards-Version to 3.7.2.
+
+ -- Gregory Colpart (evolix) <reg@evolix.fr>  Wed, 25 Jul 2007 23:38:06 +0200
+
+php-auth (1.2.4-0.1) unstable; urgency=high
+
+  * Non-maintainer upload.
+  * New upstream release.
+    * Repack to move package.xml within Auth-1.2.4/.
+    * Fixes multiple (unspecified) injection attacks (CVE-2006-0868).
+      (Closes: #354474)
+
+ -- Steinar H. Gunderson <sesse@debian.org>  Tue,  6 Jun 2006 16:05:46 +0200
+php-auth (1.2.4-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Steinar H. Gunderson <sesse@debian.org>  Tue,  6 Jun 2006 16:11:34 +0200
+
+php-auth (1.2.3-2) unstable; urgency=low
+
+  * Changed placement of Container.php and Container/ to inside Auth/,
+    different from the upstream tarball. (Closes: #255317)
+
+ -- Chris Anderson <chris@nullcode.org>  Sun, 20 Jun 2004 09:30:00 -0400
+
+php-auth (1.2.3-1) unstable; urgency=low
+
+  * Initial Release.
+
+ -- Chris Anderson <chris@nullcode.org>  Sun, 23 May 2004 22:14:58 -0400
