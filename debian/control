@@ -1,0 +1,38 @@
+Source: php-auth
+Section: php
+Priority: optional
+Maintainer: Debian PHP PEAR Maintainers <pkg-php-pear@lists.alioth.debian.org>
+Uploaders: Gregory Colpart <reg@debian.org>,
+           Prach Pongpanich <prachpub@gmail.com>
+Build-Depends: debhelper (>= 9), pkg-php-tools (>= 1.1~)
+Standards-Version: 3.9.5
+Homepage: http://pear.php.net/package/Auth/
+Vcs-Git: git://anonscm.debian.org/pkg-php/php-auth.git
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-php/php-auth.git
+
+Package: php-auth
+Architecture: all
+Depends: ${misc:Depends}, ${phppear:Debian-Depends}
+Recommends: ${phppear:Debian-Recommends}
+Breaks: ${phppear:Debian-Breaks}
+Description: ${phppear:summary}
+ The PEAR::Auth package provides methods for creating an authentication
+ system using PHP.
+ .
+ Currently it supports the following storage containers to read/write
+ the login data:
+ .
+    * All databases supported by the PEAR database layer
+    * All databases supported by the MDB database layer
+    * All databases supported by the MDB2 database layer
+    * Plaintext files
+    * LDAP servers
+    * POP3 servers
+    * IMAP servers
+    * vpopmail accounts (Using either PECL vpopmail or PEAR Net_Vpopmaild)
+    * RADIUS
+    * SAMBA password files
+    * SOAP (Using either PEAR SOAP package or PHP5 SOAP extension)
+    * PEAR website
+    * Kerberos V servers
+    * SAP servers
